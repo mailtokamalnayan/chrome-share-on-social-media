@@ -1,7 +1,7 @@
 {
-  "name": "share-on-twitter",
+  "name": "share-on-stimulus",
   "version": "0.0.5",
-  "description": "Share current page on Twitter",
+  "description": "Share current page on Stimulus",
   "main": "./src/background.js",
   "scripts": {
     "lint": "eslint ./src/**/*.js  --fix",
@@ -13,11 +13,11 @@
   "keywords": [
     "chrome",
     "extension",
-    "twitter",
+    "stimulus",
     "share",
     "tab"
   ],
-  "author": "Roberto Entringer",
+  "author": "Kamal Nayan",
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
@@ -32,13 +32,5 @@
     "rollup": "^2.35.1",
     "rollup-plugin-terser": "^7.0.2",
     "zipack": "1.0.2"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/robertoentringer/chrome-share-on-twitter.git"
-  },
-  "bugs": {
-    "url": "https://github.com/robertoentringer/chrome-share-on-twitter/issues"
-  },
-  "homepage": "https://github.com/robertoentringer/chrome-share-on-twitter#readme"
+  }
 }

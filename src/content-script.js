@@ -64,8 +64,4 @@ waitForElm("[data-testid='PostInput']").then(() => {
   inputTextArea.innerHTML = totalText
   inputTextArea.value = totalText
   inputTextArea.removeAttribute('placeholder')
-
 })
-
-
-
